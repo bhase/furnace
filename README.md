@@ -1,6 +1,8 @@
 # Furnace
 Modifying a hot air oven for reflow soldering and filament drying
 
+![The object of intent](img/oven.jpg)
+
 ## Current state
 
 Some time ago I bought a cheap hot air oven for reflow soldering and haven't
@@ -23,3 +25,8 @@ Implement a microcontroller based temperature control
 - Temperature measurent with PT100 (can measure up to 400° C)
 - Temperature and humidity measurement, removeable for reflow solder
 - A display for current and target temperature, time etc.
+
+## Open points
+
+- how warm will it be in the intended installation placw at 250°?
+- temperature control algorithm (simple two point?)
